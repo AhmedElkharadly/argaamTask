@@ -1,0 +1,1112 @@
+{
+  "financialRatioFieldsGroups": [
+    {
+      "fieldGroupAr": "البيانات للسهم",
+      "fieldGroupEn": "Per Share Data",
+      "groupSeqNo": "1",
+      "financialRatioFieldsGroupFields": [
+        {
+          "ratioName": "SharesOutstandings1",
+          "nameEn": "Shares Outstanding (M)",
+          "nameAr": "متوسط عدد الاسهم (مليون)",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "315.0000",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        },
+        {
+          "ratioName": "EarningsPerShare",
+          "nameEn": "EPS",
+          "nameAr": "ربح السهم",
+          "isCurrency": true,
+          "currency": "SAR",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "-0.25869206349206349206",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "-0.55147619047619047619",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "-0.63541587301587301587",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "-0.45393333333333333333",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "-0.24142222222222222222",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "0.02757777777777777777",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "0.40097142857142857142",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "0.60248888888888888888",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "0.62377777777777777777",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "0.62112380952380952380",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "0.56777777777777777777",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "0.55804126984126984126",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "0.44167936507936507936",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        },
+        {
+          "ratioName": "EPSBeforeXOItems",
+          "nameEn": "EPS Before XO Items",
+          "nameAr": "ربح السهم  قبل الاستثناءات",
+          "isCurrency": true,
+          "currency": "SAR",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "-0.32959047619047619047",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "-0.49476190476190476190",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "-0.78965079365079365079",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "-0.30024126984126984126",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "-0.16364444444444444444",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "0.02757777777777777777",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "0.40097142857142857142",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "0.60248888888888888888",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "0.62377777777777777777",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "0.60612698412698412698",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "0.56777777777777777777",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "0.55804126984126984126",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "0.40959047619047619047",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldGroupAr": "مضاعفات التقييم",
+      "fieldGroupEn": "Multiple Ratios",
+      "groupSeqNo": "2",
+      "financialRatioFieldsGroupFields": [
+        {
+          "ratioName": "PriceEarnings",
+          "nameEn": "P/E ",
+          "nameAr": "مكرر الارباح",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "-6.919423",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "-6.464467",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "-7.235891",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "-7.565648",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "-15.537923",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "194.272360",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "20.762327",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "23.769732",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "20.675472",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        },
+        {
+          "ratioName": "PriceEarningsBeforeUnusualItems",
+          "nameEn": "P/E Before Unusual Items",
+          "nameAr": "مكرر الارباح قبل الاستثناءات",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "-5.430982",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "-7.205486",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "-5.822573",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "-11.438467",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "-22.922868",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "194.272360",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "20.762327",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "23.769732",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "20.675472",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        },
+        {
+          "ratioName": "PricePerBook",
+          "nameEn": "Price/book",
+          "nameAr": "مضاعف القيمة الدفترية",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "1.943198",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "3.018392",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "5.853542",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "2.459691",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "2.029131",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "2.520342",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "3.754947",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "5.921986",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "5.726114",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldGroupAr": "نسب النمو",
+      "fieldGroupEn": "Growth",
+      "groupSeqNo": "3",
+      "financialRatioFieldsGroupFields": [
+        {
+          "ratioName": "AssetsGrowth",
+          "nameEn": "Assets  %",
+          "nameAr": "النمو في الاصول %",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "-4.226353200",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "-2.138387100",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "-28.969969600",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "77.105281900",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "-2.461965300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "11.506353000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "10.515738700",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "15.549272000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "3.910921300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "24.701489700",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "-20.311281800",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "12.539945700",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        },
+        {
+          "ratioName": "BookValueGrowth",
+          "nameEn": "Book Value (BV) %",
+          "nameAr": "النمو في القيمة الدفترية %",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "-22.007612000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "50.366981400",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "-43.743363700",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "-24.473839700",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "-13.034024300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "-4.120638000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "-8.318925900",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "7.369413600",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "-6.469967100",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "34.758162200",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "-31.896735300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "27.009708600",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        },
+        {
+          "ratioName": "NormalizedEarningGrowth",
+          "nameEn": "Earnings  %",
+          "nameAr": "النمو في الأرباح %",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "53.090982400",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "13.210196000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "-39.979998500",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "-88.024668600",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "-975.423045900",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "-93.122258600",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "-33.447498200",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "-3.412896300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "0.427284900",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "9.395582900",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "1.744764900",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "26.345334200",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldGroupAr": "نسب الربحية",
+      "fieldGroupEn": "Profitability",
+      "groupSeqNo": "4",
+      "financialRatioFieldsGroupFields": [
+        {
+          "ratioName": "AssetTurnover",
+          "nameEn": "Asset Turnover",
+          "nameAr": "معدل دوران الاصول",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "0.34124409745882155799",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "0.32470454612123967790",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "0.23092319107505376587",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "0.45700406438459486253",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "0.64835471567804833257",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "0.65945527674982341608",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "0.76443656684941688317",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "0.84236649835077873971",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "0.76839349705358454976",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "0.80415462804072390747",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "0.70145124956065509284",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "0.62601677433999010624",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        },
+        {
+          "ratioName": "ReturnOnAverageAssets",
+          "nameEn": "Return on Average Assets %",
+          "nameAr": "العائد على متوسط الأصول %",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "-3.85734068907930179800",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "-7.96226660701975681600",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "-7.53874720812947499600",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "-5.88697618349675409100",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "-4.28396114308440357700",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "0.50962939670486198200",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "8.22757043179013461500",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "13.95122833352568734700",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "15.86574874803585760900",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "17.87783924253970690600",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "16.28535474483394128300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "15.22902492759449103000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        },
+        {
+          "ratioName": "ReturnonAverageAssetsNetProfit",
+          "nameEn": "Return on Average Assets Before Unusual Items %",
+          "nameAr": "العائد على متوسط الأصول قبل البنود الاستثنائية %",
+          "isCurrency": false,
+          "currency": "",
+          "isPercentage": false,
+          "measuringUnitAr": null,
+          "measuringUnitEn": null,
+          "values": [
+            {
+              "year": "2022",
+              "period": "-",
+              "value": "-4.91450235225925525300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2021",
+              "period": "-",
+              "value": "-7.14342026137080332600",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2020",
+              "period": "-",
+              "value": "-9.36863236950241616800",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2019",
+              "period": "-",
+              "value": "-3.89377266454334959300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2018",
+              "period": "-",
+              "value": "-2.90381902224535603300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2017",
+              "period": "-",
+              "value": "0.50962939670486198200",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2016",
+              "period": "-",
+              "value": "8.22757043179013461500",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2015",
+              "period": "-",
+              "value": "13.95122833352568734700",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2014",
+              "period": "-",
+              "value": "15.86574874803585760900",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2013",
+              "period": "-",
+              "value": "17.44618482922969241400",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2012",
+              "period": "-",
+              "value": "16.28535474483394128300",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2011",
+              "period": "-",
+              "value": "15.22902492759449103000",
+              "fiscalPeriodType": "Yearly"
+            },
+            {
+              "year": "2010",
+              "period": "-",
+              "value": "-",
+              "fiscalPeriodType": "Yearly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

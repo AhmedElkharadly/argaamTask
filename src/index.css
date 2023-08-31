@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  padding-top: 50px;
+  background-color: #34495e;
+}
+
+.hiddenRow {
+  padding: 0 !important;
+}
+.accordian-body {
+  overflow: hidden !important;
+  transition: max-height 0.3s ease-in-out !important;
+  max-height: 0 !important;
+}
+
+.active .accordian-body {
+  max-height: 500px !important; /* Adjust this value as needed */
+}
+
+/* Adjust the max height and transition duration as needed */
+.accordion-element {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion-element.active {
+  max-height: 1000px; /* Adjust this value as needed */
+  transition: max-height 0.3s ease-in-out;
+}
+.accordion-button:focus{
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important
+}
+
+table{
+  border: 1px solid gray;
+}
