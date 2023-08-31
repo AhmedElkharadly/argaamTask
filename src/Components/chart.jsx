@@ -1,51 +1,53 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 
-const Chart = ({ labels, values, title }) => {
-  const options = {
-    chart: {
-        alignTicks: false
-    },
-title: {
-      text: title,
-      align: "left",
-    },
-    xAxis: {
-      categories: labels, 
-    },
-    series: [
-      {
-        name: title,
-        data: values,
-      },
-    ],
-  };
+const ChartModal = ({ data, isOpen, onClose }) => {
+  const desiredYears = ["2019", "2020", "2021", "2022"];
+  const [chartOptions, setChartOptions] = useState({});
+
+  useEffect(() => {
+    if (isOpen) {
+      const filteredValues = data?.values?.filter((value) =>
+        desiredYears.includes(value.year)
+      );
+
+      const myValues = filteredValues?.map((val) => Number(val.value));
+
+      setChartOptions({
+        chart: {
+          alignTicks: false,
+        },
+        title: {
+          text: data?.nameEn,
+          align: "left",
+        },
+        xAxis: {
+          categories: desiredYears,
+        },
+        series: [
+          {
+            name: data?.nameEn,
+            data: myValues,
+          },
+        ],
+      });
+    }
+  }, [data, isOpen]);
 
   return (
-    <div>
-      <div
-        className="modal fade"
-        id="exampleModal"
-        tabIndex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header">
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="modal-body">
+    <div className={`modal fade ${isOpen ? "show" : ""}`} tabIndex="-1" aria-hidden={!isOpen}>
+      <div className="modal-dialog">
+        <div className="modal-content">
+          <div className="modal-header">
+            <button type="button" className="btn-close" onClick={onClose} aria-label="Close"></button>
+          </div>
+          <div className="modal-body">
+            {isOpen && (
               <div>
-                <HighchartsReact highcharts={Highcharts} options={options} />
+                <HighchartsReact highcharts={Highcharts} options={chartOptions} />
               </div>
-            </div>
+            )}
           </div>
         </div>
       </div>
@@ -53,4 +55,4 @@ title: {
   );
 };
 
-export default Chart;
+export default ChartModal;
