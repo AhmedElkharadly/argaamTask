@@ -1,11 +1,12 @@
 import "./App.css";
-import Chart from "./Components/chart";
-import Home from "./Pages/Home";
+import React from "react";
+import Table from "./Components/Table";
+import jsonData from "./Data.json";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Table data={jsonData?.financialRatioFieldsGroups} />
     </div>
   );
 }

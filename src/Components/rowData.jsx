@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./styles.css";
 import chartIc from "../assets/chartIc.svg";
 
 const RowData = ({ data, openChartModal }) => {
@@ -12,14 +11,8 @@ const RowData = ({ data, openChartModal }) => {
       <td className="ps-5" style={{ width: "35%" }}>
         {data?.nameEn}
       </td>
-      {filteredValues.map((value, index) => (
-        <td key={index}>{parseFloat(value.value).toFixed(2)}</td>
-      ))}
-      <td
-        className=""
-        style={{ cursor: "pointer" }}
-        onClick={() => openChartModal(data)}
-      >
+      {filteredValues.map((value, index) => (<td key={index}>{parseFloat(value.value).toFixed(2)}</td>))}
+      <td style={{ cursor: "pointer" }} onClick={() => openChartModal(data)} >
         <img style={{ cursor: "pointer" }} src={chartIc} alt="" />
       </td>
     </>

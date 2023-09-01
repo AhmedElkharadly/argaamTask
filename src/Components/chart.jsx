@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Highcharts from "highcharts";
-import HighchartsAccessibility from "highcharts/modules/accessibility"; // Import the accessibility module
+import HighchartsAccessibility from "highcharts/modules/accessibility";
 import HighchartsReact from "highcharts-react-official";
 
-// Initialize the accessibility module
 HighchartsAccessibility(Highcharts);
 
 const ChartModal = ({ data, isOpen, onClose }) => {
@@ -45,19 +44,9 @@ const ChartModal = ({ data, isOpen, onClose }) => {
       aria-hidden={!isOpen}
       className="centered-modal"
     >
-      <div className="modal-dialog">
-        <div className="modal-content">
-          <div className="modal-body"  >
-            {isOpen && (
-  
-                <HighchartsReact
-                  highcharts={Highcharts}
-                  options={chartOptions}
-                />
-            )}
-          </div>
-        </div>
-      </div>
+      {isOpen && (
+        <HighchartsReact highcharts={Highcharts} options={chartOptions} />
+      )}
     </div>
   );
 };

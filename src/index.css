@@ -50,6 +50,35 @@ table {
   border: 1px solid gray;
 }
 
-.highcharts-root{
+.highcharts-root {
   border-radius: 15px !important;
+}
+
+th {
+  padding: 15px !important;
+}
+.datails {
+  width: 35%;
+}
+.centered-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+  .centered-modal {
+    scale: 0.8;
+    top: 40%;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .centered-modal {
+    scale: 0.6;
+    top: 30%;
+    left: 20%;
+  }
 }
