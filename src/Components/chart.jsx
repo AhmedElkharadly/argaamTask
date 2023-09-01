@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Highcharts from "highcharts";
+import HighchartsAccessibility from "highcharts/modules/accessibility"; // Import the accessibility module
 import HighchartsReact from "highcharts-react-official";
+
+// Initialize the accessibility module
+HighchartsAccessibility(Highcharts);
 
 const ChartModal = ({ data, isOpen, onClose }) => {
   const desiredYears = ["2019", "2020", "2021", "2022"];
@@ -20,7 +24,7 @@ const ChartModal = ({ data, isOpen, onClose }) => {
         },
         title: {
           text: data?.nameEn,
-          align: "left",
+          align: "center",
         },
         xAxis: {
           categories: desiredYears,
@@ -36,17 +40,20 @@ const ChartModal = ({ data, isOpen, onClose }) => {
   }, [data, isOpen]);
 
   return (
-    <div className={`modal fade ${isOpen ? "show" : ""}`} tabIndex="-1" aria-hidden={!isOpen}>
+    <div
+      tabIndex="-1"
+      aria-hidden={!isOpen}
+      className="centered-modal"
+    >
       <div className="modal-dialog">
         <div className="modal-content">
-          <div className="modal-header">
-            <button type="button" className="btn-close" onClick={onClose} aria-label="Close"></button>
-          </div>
-          <div className="modal-body">
+          <div className="modal-body"  >
             {isOpen && (
-              <div>
-                <HighchartsReact highcharts={Highcharts} options={chartOptions} />
-              </div>
+  
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  options={chartOptions}
+                />
             )}
           </div>
         </div>
